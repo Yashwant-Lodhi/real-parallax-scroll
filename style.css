@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+.bg-1 {
+	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(media/bg1.jpg);
+	height: 100vh;
+}
+.bg-2 {
+	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(media/bg2.jpg);
+	height: 80vh;
+}
+.bg-3 {
+	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(media/bg3.jpg);
+	height: 80vh;
+}
+.bg-4 {
+	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(media/bg4.jpg);
+	height: 100vh;
+}
+
+.bg-1,
+.bg-2,
+.bg-3,
+.bg-4 {
+	position: relative;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.main-heading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px 50px;
+	border: 2px solid #eee;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background: rgba(0, 0, 0, .7);
+	border-radius: 100px;
+}
+
+.section-1,
+.section-3 {
+	background: #ccc;
+	padding: 50px 50px;
+}
+
+.section-2 {
+	background: rgb(56, 150, 77);
+	padding: 50px 50px;
+}
+
+.section-2 .section-text {
+	color: #fff;
+}
+
+.section-text {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	color: #000;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.copy-text {
+	font-size: .8rem;
+	text-decoration: none;
+	color: #fff;
+	position: absolute;
+	padding: 10px;
+	bottom: 0;
+	box-shadow: 2px 5px 10px #000;
+	border-radius: 30px;
+}
+
+.copy-text a {
+	text-decoration: none;
+	color: #fff;
+}
